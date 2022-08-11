@@ -69,3 +69,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# YouTube-React-Clone" 
+
+
+
+
+
+
+
+
+
+-> Make the Header responsive 
+    -> In big screens the menubar and the sidebar both should display and search input should display 
+    -> In small screens the menubar icon should toggle the sidebar -> when I click on search icon the input field should display
+    ->(reference dashboard.html from the dashboard in bazarside project)
+
+-> Update the Search input and button to latest in big screen 
+
+-> Call the Youtube API to play the videos (reference amazon prime video project)

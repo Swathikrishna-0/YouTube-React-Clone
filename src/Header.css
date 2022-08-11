@@ -1,0 +1,140 @@
+.header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:20px;
+  position:sticky;
+  top:0;
+  z-index: 100;
+  background-color:white;
+}
+.header__logo{
+  height:25px;
+  object-fit:contain;
+  margin-left: 20px;
+}
+.middle__container{
+  display:flex;
+  align-items:center;
+  border-radius: 2px;
+}
+.header__input{
+  display:flex;
+  width: 100%;
+  align-items:center;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.header__input__button{
+  width:60px !important;
+  background-color:#fafafa;
+  border-left: 1px solid black;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__input input{
+  flex: 1;
+  border: none;
+}
+.header__right{
+  display:flex;
+  align-items:center;
+}
+.header__icon{
+  margin-right:8px;
+}
+.header__icon__avatar{
+  height:80px;
+  width:50px;
+}
+.icon__icon:hover{
+  cursor:pointer;
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+  .header__input__sm{
+    display:block;
+  }
+  .header__input__button{
+    border-left: 0px solid white;
+    color:black;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+  .header__input{
+    display:none;
+  }
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+  .header__left__xl{
+    display:none;
+  }
+}
+.header__left__sm{
+  display:none;
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+  .header__left__sm{
+    display:block;
+  }
+  .middle__container{
+    display:flex;
+    align-items:center;
+    border-radius: 2px;
+  }
+}
+.header__input__sm{
+  display:none;
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+  .header__input__sm{
+    display: block;
+    display:flex;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-left: 10%;
+  }
+}
+.header__input__button__sm{
+  width:30px !important;
+  background-color:#fafafa;
+  border-left: 1px solid black;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+.header__input__small{
+  width:70%;
+}
+@media screen and (min-width:700px) {
+  .new__small__icons{
+    display:block !important;
+  }
+}
+
+@media screen and (min-width:500px) {
+  .new__small__icons{
+    display:block !important;
+  }
+}
+@media screen and (min-width:700px) {
+.microphone__icon__big{
+ display:block !important;
+ background-color: #d2d2d2;
+ border-radius: 100px;
+ margin: 10px;
+ padding:2px;
+}
+.middle__container{
+  display:flex;
+  align-items:center;
+  border-radius: 2px;
+  width:40%;
+}
+}

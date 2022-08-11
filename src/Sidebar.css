@@ -1,0 +1,22 @@
+@import url('https://fonts/googleapis.com/css2?family=Oswald&display=swap');
+
+.sidebar{
+  width: 25%;
+  height:100vh;
+  position:relative;
+  position:sticky;
+  top:0;
+}
+.sidebar > hr{
+  height:1px;
+  border: 0;
+  background-color:lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+  .sidebar{
+    display:none;
+  }
+} 

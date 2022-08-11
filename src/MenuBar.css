@@ -1,0 +1,30 @@
+.menubar__container{
+  display:flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.menubar__container > hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.menubar__profile_container{
+  display:flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.menubar__profile_container__id{
+  padding-left: 15px;
+}
+.menubar__profile_container__para__link{
+  color: blue;
+}
+.menubar__items__with__icons{
+  display: flex;
+  padding: 10px;
+}
+.menubar__icons{
+  margin-left: 10px;
+  margin-right: 20px;
+}
